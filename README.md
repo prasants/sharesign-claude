@@ -27,8 +27,12 @@ A saved unsent draft survives an interrupted conversation. Retry the same operat
 
 ## Release status
 
-Version 0.1.0 is a prerelease candidate. Package validation is separate from actual Claude installation, web/Desktop/Cowork compatibility, directory acceptance and public availability. Do not claim a public listing or supported surface until its acceptance check is recorded. Supported installation instructions will use the verified directory entry after publication.
+Version 0.1.1 is a prerelease candidate. Package validation is separate from actual Claude installation, web/Desktop/Cowork compatibility, directory acceptance and public availability. Do not claim a public listing or supported surface until its acceptance check is recorded. Supported installation instructions will use the verified directory entry after publication.
 
 ## Support
 
 [Support](https://sharesign.co/support) · [Privacy](https://sharesign.co/legal/privacy) · [Terms](https://sharesign.co/legal/terms) · [Connection guide](https://sharesign.co/docs/connect#agents)
+
+## Licence
+
+Proprietary. Installation and use are permitted under the included LICENSE; other rights are reserved.

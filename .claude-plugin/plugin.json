@@ -1,7 +1,7 @@
 {
   "name": "sharesign",
   "displayName": "ShareSign",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Prepare contracts for e-signature, research virtual data rooms with citations, and review signing progress and viewer activity.",
   "author": {
     "name": "ShareSign",
@@ -24,5 +24,6 @@
   "documentationUrl": "https://sharesign.co/docs/connect#agents",
   "supportUrl": "https://sharesign.co/support",
   "privacyPolicyUrl": "https://sharesign.co/legal/privacy",
-  "termsOfServiceUrl": "https://sharesign.co/legal/terms"
+  "termsOfServiceUrl": "https://sharesign.co/legal/terms",
+  "license": "LicenseRef-ShareSign-Plugin"
 }
