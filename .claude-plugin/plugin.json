@@ -1,14 +1,14 @@
 {
   "name": "sharesign",
   "displayName": "ShareSign",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Prepare contracts for e-signature, research virtual data rooms with citations, and review signing progress and viewer activity.",
   "author": {
     "name": "ShareSign",
     "email": "support@sharesign.co",
     "url": "https://sharesign.co"
   },
-  "homepage": "https://sharesign.co",
+  "homepage": "https://sharesign.co/claude?utm_source=claude&utm_medium=assistant&utm_campaign=plugin",
   "repository": "https://github.com/prasants/sharesign-claude",
   "keywords": [
     "e-signatures",

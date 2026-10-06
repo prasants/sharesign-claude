@@ -27,7 +27,7 @@ A saved unsent draft survives an interrupted conversation. Retry the same operat
 
 ## Release status
 
-Version 0.1.1 is a prerelease candidate. Package validation is separate from actual Claude installation, web/Desktop/Cowork compatibility, directory acceptance and public availability. Do not claim a public listing or supported surface until its acceptance check is recorded. Supported installation instructions will use the verified directory entry after publication.
+This is a prerelease candidate. The workflows have been exercised in Claude web and the macOS desktop app. Claude Code and Cowork are not included in this directory submission. The directory groups web, desktop and mobile as one target; the mobile app has not been separately tested. Package validation is separate from directory acceptance and public availability. Supported installation instructions will use the verified directory entry after publication.
 
 ## Support
 
