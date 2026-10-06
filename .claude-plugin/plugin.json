@@ -1,0 +1,28 @@
+{
+  "name": "sharesign",
+  "displayName": "ShareSign",
+  "version": "0.1.0",
+  "description": "Prepare contracts for e-signature, research virtual data rooms with citations, and review signing progress and viewer activity.",
+  "author": {
+    "name": "ShareSign",
+    "email": "support@sharesign.co",
+    "url": "https://sharesign.co"
+  },
+  "homepage": "https://sharesign.co",
+  "repository": "https://github.com/prasants/sharesign-claude",
+  "keywords": [
+    "e-signatures",
+    "electronic signatures",
+    "digital signatures",
+    "document signing",
+    "contracts",
+    "virtual data rooms",
+    "due diligence",
+    "fundraising"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://sharesign.co/docs/connect#agents",
+  "supportUrl": "https://sharesign.co/support",
+  "privacyPolicyUrl": "https://sharesign.co/legal/privacy",
+  "termsOfServiceUrl": "https://sharesign.co/legal/terms"
+}

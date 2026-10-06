@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sharesign": {
+      "type": "http",
+      "url": "https://sharesign.co/mcp"
+    }
+  }
+}
