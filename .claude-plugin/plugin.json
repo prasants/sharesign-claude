@@ -1,7 +1,7 @@
 {
   "name": "sharesign",
   "displayName": "ShareSign",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Prepare contracts for e-signature, research virtual data rooms with citations, and review signing progress and viewer activity.",
   "author": {
     "name": "ShareSign",
