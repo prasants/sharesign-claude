@@ -31,3 +31,11 @@ When the question is what needs attention, use `sharesign_get_attention` if adve
 For an existing unsent draft, use `sharesign_list_preparations`, let the person identify the intended document if ambiguous, then inspect `sharesign_get_preparation` for its current version and first blocker. Company draft discovery differs from actor-owned template/PDF operation recovery. Finding a title match does not prove an interrupted operation succeeded. Return the current review link and a practical next step without editing or creating a replacement. Use the preparation workflow's exact operation receipt to recover known interrupted work.
 
 For a released completed agreement that the person wants to organise, use the deliberate filing handover in the preparation workflow. Suggesting a destination never copies or shares a file.
+
+## Hand signing back to the person
+
+A request to sign, apply initials or add a signing date on the person’s behalf is unsupported, regardless of approved permissions. Do not ask for more permissions, another connection or a signing token. Say what has actually been prepared and that nothing was signed. Read the existing agreement by its returned ID, give its authenticated ShareSign record link, and explain: open the record, choose Continue signing when it is your turn, place your own marks and confirm the signature in ShareSign. A later sequential signer must wait for their turn. A sent or completed agreement cannot be changed as an unsent draft.
+
+Ordinary editable business-date prefills in an unsent draft remain allowed with draft preparation permission. They are not a signing timestamp.
+
+Use the connection context’s action_support outcomes to distinguish unsupported execution from a missing draft permission or failed authentication. Reconnecting can change approved drafting/search permissions; it cannot enable assistant signing, sending, publishing or guest invitations. Only ask to restore access when a real authentication/authority result requires it.

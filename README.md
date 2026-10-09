@@ -16,7 +16,7 @@ The bundle includes five skills and one remote production MCP server at https://
 
 ShareSign Pro and Business include assistant access, including active qualifying partner offers. Other founders can use normal setup at https://sharesign.co and optional fictional examples at https://sharesign.co/examples. No fundraising onboarding is required.
 
-Read-only consent remains useful. Preparing drafts, searching file contents and individual viewer activity each require additional permission. This bundle does not send or sign agreements, publish or invite to rooms, automatically file signed copies, issue shares, calculate valuations or change your billing. Review and send in ShareSign.
+Read-only consent remains useful. Preparing drafts, searching file contents and individual viewer activity each require additional permission. This bundle does not send or sign agreements, publish or invite to rooms, automatically file signed copies, issue shares, calculate valuations or change your billing. Review, send and complete your own signatures in ShareSign. To return to an unfinished signature, open its agreement record and choose Continue signing when it is your turn. Signing on your behalf is unsupported, rather than an extra permission you can grant.
 
 ## Privacy and recovery
 

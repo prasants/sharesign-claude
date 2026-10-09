@@ -1,7 +1,7 @@
 {
   "name": "sharesign",
   "displayName": "ShareSign",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Prepare contracts for e-signature, resume saved drafts, research virtual data rooms with citations, and organise completed agreements for private filing in ShareSign.",
   "author": {
     "name": "ShareSign",
