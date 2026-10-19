@@ -1,11 +1,17 @@
 ---
 name: get-started
-description: Connect ShareSign and complete a first task: prepare an agreement draft, find a clause, or review signing progress.
+description: Choose a first task: make a brief from supplied terms without connecting, or connect to prepare drafts, research clauses and review signing progress.
 ---
 
 Use when the person asks to set up or start using ShareSign in Claude.
 
-After the connection read succeeds, name the approved business. Explain available tasks in plain language, based on effective permissions:
+## Choose the right starting point
+
+If the person supplied text or agreed terms and wants a brief, use prepare-agreement’s chat-only brief mode first. That chat-only task requires no account, sign-in, ShareSign retrieval or MCP call. Missing source material needs a request for readable text, not a connection loop. Do not claim a saved draft. Offer a ShareSign action only if relevant and deliberately requested.
+
+If they ask to work with existing ShareSign agreements, rooms or saved drafts, follow the connection and authority section below before retrieval or a write. If they ask generally what to try, offer two concise choices: a brief from their supplied text without connecting, or one connected task using existing agreements/rooms. Ask which would help, without listing the whole tool catalogue. Do not initiate login just to describe these options. A chat-only result is still part of the Claude conversation; do not promise that nothing is stored anywhere or that processing is local.
+
+After a deliberately requested connected task's context read succeeds, name the approved business. Explain available tasks in plain language, based on effective permissions:
 - Agreement reads: signing progress, available templates and business brief.
 - Draft preparation: prepare an unsent agreement for review.
 - Room reads: browse rooms and their file indexes.
@@ -20,9 +26,9 @@ If OAuth is cancelled or the setup tab closes, report incomplete setup and perfo
 
 ## Connection and authority
 
-First read `sharesign_get_connection_context` from this plugin's production ShareSign MCP server. Establish the approved business and effective permissions. Never use another plugin, a preview, a pilot or a similarly named connection. If multiple ShareSign connections are present, identify this plugin's declared dependency before retrieval. Do not infer the business from conversation history or the web app's selected workspace.
+For connected tasks, first read `sharesign_get_connection_context` from this plugin's production ShareSign MCP server. Establish the approved business and effective permissions. Never use another plugin, a preview, a pilot or a similarly named connection. If multiple ShareSign connections are present, identify this plugin's declared dependency before retrieval. Do not infer the business from conversation history or the web app's selected workspace.
 
-Missing tools mean an unavailable dependency, not empty records or failed login. An authentication response needs the host's actual sign-in control, followed by one fresh context read. Do not invent a Connect button or URL, repeat installation links, or require the user to reply “connected”. Never ask for passwords, tokens or one-time codes in chat. If recovery fails, report the returned error and the documented recovery route at https://sharesign.co/docs/connect#agents, then stop the loop.
+Missing tools or a context response without an actual approved business and effective permissions mean an unavailable dependency, not empty records or failed login. Do not prescribe reconnecting unless an actual authentication/authority result indicates it is needed. An authentication response needs the host's actual sign-in control, followed by one fresh context read. Do not invent a Connect button or URL, repeat installation links, or require the user to reply “connected”. Never ask for passwords, tokens or one-time codes in chat. If recovery fails, report the returned error and the documented recovery route at https://sharesign.co/docs/connect#agents, then stop the loop.
 
 To change approved permissions, use Claude's actual connector reconnect control, then select the business and permissions in ShareSign's fresh consent screen. Settings, Assistants in ShareSign lists and disconnects existing connections; it does not edit their approved permissions. Do not tell the user to restore permissions there. When optional permissions are declined, offer one useful task within current access rather than repeatedly asking to broaden it.
 

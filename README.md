@@ -12,9 +12,9 @@ Prepare contracts for e-signature, find evidence in virtual data rooms, and revi
 
 ## Connection
 
-The bundle includes five skills and one remote production MCP server at https://sharesign.co/mcp. It runs no local server, hooks or executables and contains no credentials. Start with **Get started**, use the host's actual sign-in flow, then select your business and permissions in ShareSign. A fresh context read confirms the connection. Do not paste passwords or codes into chat.
+The bundle includes five skills and one remote production MCP server at https://sharesign.co/mcp. It runs no local server, hooks or executables and contains no credentials. Start with **Get started**. For a chat-only brief, supply the text or agreed terms without connecting. For connected tasks, use the host's actual sign-in flow, then select your business and permissions in ShareSign. A fresh context read confirms that connection. Do not paste passwords or codes into chat.
 
-ShareSign Pro and Business include assistant access, including active qualifying partner offers. Other founders can use normal setup at https://sharesign.co and optional fictional examples at https://sharesign.co/examples. No fundraising onboarding is required.
+Connected ShareSign workflows require Pro or Business, including active qualifying partner offers. A brief from supplied terms needs no ShareSign account and creates no ShareSign record. Other founders can use normal setup at https://sharesign.co and optional fictional examples at https://sharesign.co/examples. No fundraising onboarding is required.
 
 Read-only consent remains useful. Preparing drafts, searching file contents and individual viewer activity each require additional permission. This bundle does not send or sign agreements, publish or invite to rooms, automatically file signed copies, issue shares, calculate valuations or change your billing. Review, send and complete your own signatures in ShareSign. To return to an unfinished signature, open its agreement record and choose Continue signing when it is your turn. Signing on your behalf is unsupported, rather than an extra permission you can grant.
 
@@ -26,9 +26,17 @@ If newly released tools are missing, use the supported Refresh tools list contro
 
 A saved unsent draft survives an interrupted conversation. Retry the same operation with the same idempotency key and inputs. A changed recipient needs a fresh version and deliberate edit. In a new conversation, read fresh connection context and inspect your template or PDF preparation operation, or list your actor-owned operations if its identity was lost. Saved recovery returns the current document and preserves human edits. A saved PDF result survives temporary upload expiry. PDF creation still requires real supported file transfer; a chat attachment alone is not an uploaded file.
 
-## Release status
+## Public installation and verification
 
-This is a prerelease candidate. The workflows have been exercised in Claude web and the macOS desktop app. Claude Code and Cowork are not included in this directory submission. The directory groups web, desktop and mobile as one target; the mobile app has not been separately tested. Package validation is separate from directory acceptance and public availability. Supported installation instructions will use the verified directory entry after publication.
+ShareSign is listed for Claude apps, Cowork and Claude Code. Add the public plugin from https://claude.ai/customize/plugins/id/2e74e5f1-bfc2-42b1-886e-636b524650d3%40anthropic-plugin-directory.
+
+For Claude Code, use the official directory source:
+
+```sh
+claude plugin install sharesign@anthropic-plugin-directory --scope local
+```
+
+That command installs the version currently served by the directory, not necessarily the version of this source tree. The published 0.1.5 package has public-source Code, Claude web and macOS desktop/Cowork workflow evidence. The directory groups web, desktop and mobile as one target; Claude mobile has not been separately verified. A later package must pass its own checks and review before it is served. A local candidate, scan pass or source push alone does not establish public availability.
 
 ## Support
 
@@ -37,3 +45,9 @@ This is a prerelease candidate. The workflows have been exercised in Claude web 
 ## Licence
 
 Proprietary. Installation and use are permitted under the included LICENSE; other rights are reserved.
+
+## Signing brief without a connection
+
+This mode requires plugin 0.1.6 or later. The official directory can continue serving 0.1.5 until the newer version passes review and is published. Check the installed version; a source update alone does not add this mode to an older installation.
+
+Ask Prepare agreement for a signing brief from text or agreed terms you supply in Claude. It reports stated facts, blanks and contradictions in chat. It neither reads nor saves ShareSign records and needs no ShareSign account. Connected preparation, research and progress workflows still require eligible ShareSign access and deliberate consent.
