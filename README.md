@@ -1,6 +1,6 @@
 # ShareSign for Claude
 
-Unpublished candidate 0.1.7. Its public installation and extra-permission recovery remain unverified.
+Unpublished candidate 0.1.8. Its public installation and extra-permission recovery remain unverified.
 
 Prepare agreements and private data-room plans, research due diligence with citations, review recorded ownership and hypothetical rounds, and find the next blocker across closings, deals, funds, cohorts and clients.
 
