@@ -162,7 +162,9 @@
     "holding documents in escrow",
     "closing binder checklist",
     "contract to close checklist",
-    "signature page escrow"
+    "signature page escrow",
+    "LP reporting",
+    "M&A due diligence"
   ],
   "icon": "./assets/icon.png",
   "documentationUrl": "https://sharesign.co/docs/connect#agents",
